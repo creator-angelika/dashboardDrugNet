@@ -1,0 +1,54 @@
+.admin-panel {
+    background-color: #1a1a1a; /* Dark grey background */
+    color: #E0E0E0; /* Light grey text */
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    border-right: 2px solid #333; /* Dark border to separate from the main content */
+    width: 20%; /* Takes up 1/5 of the screen */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-panel h2 {
+    color: #66BBFF; /* Light Blue heading */
+    margin-bottom: 50px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-logo {
+    border-radius: 50%;
+    width: 100px; /* Larger image */
+    height: 100px; /* Larger image */
+    margin-bottom: 10px;
+  }
+  
+  .user-greeting {
+    color: #66BBFF; /* Light Blue for user greeting */
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .admin-panel ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px; /* Space between user info and menu */
+  }
+  
+  .admin-panel ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333; /* Border between items */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .admin-panel ul li:hover {
+    background-color: #333; /* Highlight on hover */
+  }
+  
