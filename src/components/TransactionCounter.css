@@ -1,18 +1,23 @@
-/* TransactionCounter.css */
 .transaction-counter {
-    height: 54.3%; /* Ensure it fills its parent */
-    width: 20%; /* Adjust this width as needed */
-    background: rgba(0, 0, 0, 0.3); /* Glassmorphism effect */
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Arial', sans-serif;
-  }
-  
+  height: 100%;
+  width: 100%;
+  background: rgba(175, 175, 175, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}

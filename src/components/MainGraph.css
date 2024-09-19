@@ -3,15 +3,15 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .main-graph {
-  height: 60%;
-  width: 95%;
-  position: relative;
-  background:  rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px); /* Glassmorphism effect */
-  border: 1px solid rgba(0, 0, 0, 0.6); /* Subtle border for glass effect */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 1); /* Shadow for depth */
-  overflow: hidden;
+  height: 100%; /* Full height of grid */
+  width: 100%; /* Full width of grid */
+  background:  rgba(175, 175, 175, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
+

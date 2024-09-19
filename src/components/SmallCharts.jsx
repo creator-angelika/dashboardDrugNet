@@ -8,10 +8,6 @@ const SmallCharts = () => {
         <h3>Global Transaction Distribution</h3>
         {/* Insert world map component or chart */}
       </div>
-      <div className="bar-chart">
-        <h3>Cases by Country</h3>
-        {/* Insert bar chart component or chart */}
-      </div>
     </div>
   );
 };
