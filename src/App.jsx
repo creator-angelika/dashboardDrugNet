@@ -3,8 +3,10 @@ import AdminPanel from './components/AdminPanel';
 import './App.css';
 import MainGraph from './components/MainGraph';
 import TransactionCounter from './components/TransactionCounter';
-import SmallCharts from './components/SmallCharts';
 import DrugCasesCounter from './components/DrugCounter';
+import BarChart from './components/BarChart';
+import ScatterPlot from './components/ScatterPlot';
+import PieChart from './components/PieChart';
 
 const App = () => {
   return (
@@ -23,10 +25,9 @@ const App = () => {
           </div>
         </div>
         <div className="dashdown">
-          <SmallCharts />
-          <SmallCharts />
-          <SmallCharts />
-          <SmallCharts />
+          <ScatterPlot />
+          <BarChart />
+          <PieChart />
         </div>
       </div>
     </div>

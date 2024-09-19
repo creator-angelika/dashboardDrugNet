@@ -7,7 +7,8 @@
   border-right: 2px solid #333;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: baseline;
+  align-items: center;
 }
 
 .admin-panel h2 {
@@ -19,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .user-logo {
@@ -39,13 +40,14 @@
   list-style-type: none;
   text-align: center;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .admin-panel ul li {
   padding: 10px 0;
   border-bottom: 1px solid #333;
   cursor: pointer;
+  
   transition: background-color 0.3s;
 }
 

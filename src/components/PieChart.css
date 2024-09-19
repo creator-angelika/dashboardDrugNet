@@ -1,0 +1,5 @@
+.pie-chart-container {
+  height: 98.3%; /* Adjust height as needed */
+  width: 100%; /* Full width of the parent container */
+  background:  rgba(175, 175, 175, 0.1);
+}
